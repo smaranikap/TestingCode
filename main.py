@@ -169,3 +169,5 @@ driver.execute_script("window.open('about:blank','secondtab');")
 driver.get('path')
 driver.switch_to.window('secondtab')
 driver.switch_to.window(driver.window_handles[-1])
+
+# Testing is done

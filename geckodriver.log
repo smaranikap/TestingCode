@@ -1,0 +1,40 @@
+1623221542943	geckodriver	INFO	Listening on 127.0.0.1:53759
+1623222210818	geckodriver	INFO	Listening on 127.0.0.1:62192
+1623222214194	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\parid\\AppData\\Local\\Temp\\rust_mozprofileVt9kly"
+1623222219236	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\parid\\AppData\\Local\\Temp\\rust_mozprofileVt9kly\\search.json.mozlz4", (void 0)))
+1623222233200	Marionette	INFO	Listening on port 62200
+1623222235400	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 4296, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 4296, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1623222428431	Marionette	INFO	Stopped listening on port 62200
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623222432171	geckodriver	INFO	Listening on 127.0.0.1:49180
+1623222435212	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\parid\\AppData\\Local\\Temp\\rust_mozprofileDoKdr6"
+1623222439595	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\parid\\AppData\\Local\\Temp\\rust_mozprofileDoKdr6\\search.json.mozlz4", (void 0)))
+1623222447178	Marionette	INFO	Listening on port 49188
+1623222449514	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623224097227	Marionette	INFO	Stopped listening on port 49188
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623224745455	geckodriver	INFO	Listening on 127.0.0.1:62176
+1623224749110	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\parid\\AppData\\Local\\Temp\\rust_mozprofile6STA8X"
+1623224750273	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\parid\\AppData\\Local\\Temp\\rust_mozprofile6STA8X\\search.json.mozlz4", (void 0)))
+1623224758983	Marionette	INFO	Listening on port 62184
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1623224759930	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 433))
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"TelemetryController: shutting down","state":{"initialized":true,"initStarted":true,"haveDelayedInitTask":false,"shutdownBarrier":"Not started","connectionsBarrier":"Not started","sendModule":{"sendingEnabled":false,"pendingPingRequestCount":0,"pendingPingActivityCount":0,"unpersistedPingCount":0,"persistedPingCount":0,"schedulerState":{"shutdown":true,"hasSendTask":false,"sendsFailed":false,"sendTaskState":"bail out - no pings to send","backoffDelay":60000}},"haveDelayedNewProfileTask":false,"shutdownStep":"TelemetrySession 563.0000000002328"},"filename":"resource://gre/modules/TelemetryControllerParent.jsm","lineNumber":924,"stack":["resource://gre/modules/TelemetryControllerParent.jsm:setupTelemetry:924","resource://gre/modules/TelemetryControllerParent.jsm:observe:1058","resource://gre/modules/TelemetryControllerParent.jsm:observe:155","resource://gre/modules/TelemetryStartup.jsm:TelemetryStartup.prototype.observe:31"]}] Barrier: profile-before-change-telemetry
+1623226312413	Marionette	INFO	Stopped listening on port 62184
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
